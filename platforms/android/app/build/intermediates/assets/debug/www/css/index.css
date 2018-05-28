@@ -1,0 +1,30 @@
+* {
+    font-family: 'Archivo';
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+.header{
+    background-color: #696969;
+    width: 100vw;
+    height: 10vh;
+}
+
+body{
+    text-align: center;
+    background-color: #C0C0C0;   
+}
+
+.btn, .input{
+    font-size: 3vh;
+    color: white;
+    margin-top: 4vh; 
+    height: 5vh;
+    width: 60vw;
+}
+
+.btn-primary{
+    border: 1px solid #7B68EE;
+    background-color: #7B68EE;
+}
